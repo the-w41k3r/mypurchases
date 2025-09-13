@@ -1,0 +1,15 @@
+{
+    "id": "mypurchases",
+    "name": "MyPurchases",
+    "description": "Display your users' Tebex purchases directly on your Azuriom website. This plugin allows users to view their own purchase history seamlessly within their profile, enhancing the integration of your store and community.",
+    "version": "1.0.0",
+    "url": "https://market.azuriom.com/resources?search=mypurchases",
+    "authors": [
+        "_w41k3r"
+    ],
+    "azuriom_api": "1.1.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\MyPurchases\\Providers\\MyPurchasesServiceProvider",
+        "\\Azuriom\\Plugin\\MyPurchases\\Providers\\RouteServiceProvider"
+    ]
+}
